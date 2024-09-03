@@ -31,8 +31,8 @@ module top(
 endmodule
 
 module segmentlogic(
-    input logic [3:0] s,
-    output logic [6:0] seg
+    input logic s[3:0],
+    output logic seg[6:0]
 );
     always_comb begin
         case(s)

@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/danie/OneDrive/Documents/E85
+vleds
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1725335701
+!i10b 1
+!s100 4UCdm=NkXoXZdGLHeYO]F2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRme<O[KRWG5?KGClM>3M80
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/sim
+Z5 w1725335339
+Z6 8C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/radiant_project/source/impl_1/lab1_df.sv
+Z7 FC:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/radiant_project/source/impl_1/lab1_df.sv
+!i122 1
+L0 61 10
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1725335701.000000
+!s107 C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/radiant_project/source/impl_1/lab1_df.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/radiant_project/source/impl_1/lab1_df.sv|
+!i113 1
+Z11 o-work work -sv
+Z12 tCvgOpt 0
+vsegmentlogic
+R0
+R1
+!i10b 1
+!s100 C1K:CBaT9D@_0?@P:lCJE3
+R2
+IP_4`gnSA^bmLSgJkSbCAl0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 1
+L0 33 27
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/radiant_project/source/impl_1/lab1_df.sv|
+R10
+!i113 1
+R11
+R12
+vtop
+R0
+R1
+!i10b 1
+!s100 lHXA=4PW3b6BbV48jfM=`2
+R2
+IJ2^jg;h^X499jL4doHO]l2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 1
+L0 1 31
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
