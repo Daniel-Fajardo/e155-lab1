@@ -1,9 +1,9 @@
 module top(
 	input logic	mcu_blink_in,
-    input logic s[3:0],
+    input logic [3:0] s,
 	output logic mcu_echo_led,
-    output logic seg[6:0],
-    output logic led[2:0]
+    output logic [6:0] seg,
+    output logic [2:0] led
 );
 
 	logic int_osc;
@@ -59,8 +59,8 @@ module segmentlogic(
 endmodule
 
 module leds(
-    input logic s[3:0],
-    output logic led[2:0]
+    input logic [3:0] s,
+    output logic [2:0] led
 );
     always_comb begin
         led[0]=(~s[1]&s[0])|(s[1]&~s[0]);
