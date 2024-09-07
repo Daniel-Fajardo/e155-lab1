@@ -1,54 +1,38 @@
-# Compile of lab1_df.sv was successful with warnings.
+# Compile of lab1_df.sv was successful.
 vsim -gui work.top
 # vsim -gui work.top 
-# Start time: 20:47:36 on Sep 02,2024
+# Start time: 13:51:42 on Sep 06,2024
 # Loading sv_std.std
 # Loading work.top
 # ** Error: (vsim-3033) Instantiation of 'HSOSC' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/radiant_project/source/impl_1/lab1_df.sv Line: 15
+#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/src/lab1_df.sv Line: 15
 #         Searched libraries:
 #             C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/sim/work
 # Loading work.segmentlogic
 # Loading work.leds
 # Error loading design
-# End time: 20:47:37 on Sep 02,2024, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 5
-# Compile of lab1_df.sv was successful with warnings.
-vsim -gui work.segmentlogic
-# vsim -gui work.segmentlogic 
-# Start time: 20:55:16 on Sep 02,2024
+# End time: 13:51:44 on Sep 06,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 6
+# Load canceled
+vsim work.top -L iCE40UP
+# vsim work.top -L iCE40UP 
+# Start time: 13:58:18 on Sep 06,2024
 # Loading sv_std.std
+# Loading work.top
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'HSOSC' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/src/lab1_df.sv Line: 15
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/sim/work
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
 # Loading work.segmentlogic
-add wave -position end sim:/segmentlogic/*
-force s 0000
-run 100
-force s 0001
-run 100
-force s 0010
-run 100
-force s 0011
-run 100
-force s 0100
-run 100
-force s 0101
-run 100
-force s 0110
-run 100
-force s 0111
-run 100
-force s 1000
-run 100
-force s 1001
-run 100
-force s 1010
-run 100
-force s 1011
-run 100
-force s 1100
-run 100
-force s 1101
-run 100
-force s 1110
-run 100
-force s 1111
-run 100
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.leds
+# Error loading design
+# End time: 13:58:19 on Sep 06,2024, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 1
