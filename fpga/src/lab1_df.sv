@@ -9,7 +9,7 @@ module top(
 	logic int_osc;
 	logic pulse;
 	logic led_state = 0;
-	logic [10:0] counter = 0; /* changed from 24 to 10, should change freq from 1 to 2.4 Hz*/
+	logic [23:0] counter = 0; /* changed from 24 to 10, should change freq from 1 to 2.4 Hz*/
 	
 	// Internal high-speed oscillator
 	HSOSC hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
@@ -25,7 +25,7 @@ module top(
     segmentlogic segmentlogic(s[3:0], seg[6:0]);
     leds leds(s[3:0], led[2:0]);
 
-    assign led[2] = counter[10]; /* changed from 24 to 10*/
+    assign led[2] = counter[23]; /* changed from 24 to 10*/
 	assign mcu_echo_led = mcu_blink_in;
 
 endmodule
