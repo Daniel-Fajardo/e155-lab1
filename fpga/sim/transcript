@@ -1,0 +1,207 @@
+# Compile of lab2_df.sv failed with 1 errors.
+# Compile of leds.sv was successful.
+# Compile of segmentlogic.sv was successful.
+# 3 compiles, 1 failed with 1 error.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/danie/OneDrive/Documents/MicroP/Lab2/fpga/sim/lab2_df.mpf).  File can not be renamed.
+# Compile of lab2_df.sv failed with 1 errors.
+# Compile of leds.sv was successful.
+# Compile of segmentlogic.sv was successful.
+# Compile of chooseanode.sv was successful.
+# Compile of mux.sv was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of lab2_df.sv failed with 1 errors.
+# Compile of leds.sv was successful.
+# Compile of segmentlogic.sv was successful.
+# Compile of chooseanode.sv was successful.
+# Compile of mux.sv was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of lab2_df.sv was successful.
+# Compile of leds.sv was successful.
+# Compile of segmentlogic.sv was successful.
+# Compile of chooseanode.sv was successful.
+# Compile of mux.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -L iCE40UP work.top
+# vsim -L iCE40UP work.top 
+# Start time: 21:20:33 on Sep 08,2024
+# Loading sv_std.std
+# Loading work.top
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'HSOSC' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/danie/OneDrive/Documents/MicroP/Lab2/fpga/src/lab2_df.sv Line: 19
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/danie/OneDrive/Documents/MicroP/Lab2/fpga/sim/work
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.leds
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.chooseanode
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.segmentlogic
+# Error loading design
+# End time: 21:20:34 on Sep 08,2024, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 13
+vsim -L iCE40UP work.chooseanode
+# vsim -L iCE40UP work.chooseanode 
+# Start time: 21:23:00 on Sep 08,2024
+# Loading sv_std.std
+# Loading work.chooseanode
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.segmentlogic
+vsim -L iCE40UP work.top
+# End time: 21:23:58 on Sep 08,2024, Elapsed time: 0:00:58
+# Errors: 2, Warnings: 1
+# vsim -L iCE40UP work.top 
+# Start time: 21:23:58 on Sep 08,2024
+# Loading sv_std.std
+# Loading work.top
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'HSOSC' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/danie/OneDrive/Documents/MicroP/Lab2/fpga/src/lab2_df.sv Line: 19
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/danie/OneDrive/Documents/MicroP/Lab2/fpga/sim/work
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.leds
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.chooseanode
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.segmentlogic
+# Error loading design
+# End time: 21:23:59 on Sep 08,2024, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 1
+# Load canceled
+vsim -L iCE40UP work.chooseanode
+# vsim -L iCE40UP work.chooseanode 
+# Start time: 21:33:50 on Sep 08,2024
+# Loading sv_std.std
+# Loading work.chooseanode
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux
+# ** Error (suppressible): (vsim-19) Failed to access library 'iCE40UP' at "iCE40UP".
+# No such file or directory. (errno = ENOENT)
+# Loading work.segmentlogic
+vsim work.mux
+# End time: 21:36:33 on Sep 08,2024, Elapsed time: 0:02:43
+# Errors: 2, Warnings: 1
+# vsim work.mux 
+# Start time: 21:36:34 on Sep 08,2024
+# Loading sv_std.std
+# Loading work.mux
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+add wave -position end sim:/mux/*
+force s1 0000
+force s2 1111
+force state 0
+run 100
+# Compile of lab2_df.sv was successful.
+# Compile of leds.sv was successful.
+# Compile of segmentlogic.sv was successful.
+# Compile of chooseanode.sv was successful.
+# Compile of mux.sv was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+run 100
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mux
+force s1 0000
+force s2 1111
+force state 0
+run 100
+# Compile of lab2_df.sv was successful.
+# Compile of leds.sv was successful.
+# Compile of segmentlogic.sv was successful.
+# Compile of chooseanode.sv was successful.
+# Compile of mux.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.mux
+# End time: 21:40:52 on Sep 08,2024, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 2
+# vsim work.mux 
+# Start time: 21:40:52 on Sep 08,2024
+# Loading sv_std.std
+# Loading work.mux
+add wave -position end sim:/mux/*
+force s1 0000
+force s2 1111
+force state 0
+run 100
+restart -f
+force s1 0000
+force s2 1111
+force state 1
+run 100
+# Compile of lab2_df.sv was successful.
+# Compile of leds.sv was successful.
+# Compile of segmentlogic.sv was successful.
+# Compile of chooseanode.sv was successful.
+# Compile of mux.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.mux
+# End time: 21:43:03 on Sep 08,2024, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 2
+# vsim work.mux 
+# Start time: 21:43:03 on Sep 08,2024
+# Loading sv_std.std
+# Loading work.mux
+add wave -position end sim:/mux/*
+force s1 0000
+force s2 1111
+force state 1
+run 100
+restart -f
+force s2 1111
+force s1 0000
+force s 1
+# ** UI-Msg (suppressible): (vsim-4008) Object 's' not found.
+# 
+# Compile of lab2_df.sv was successful.
+# Compile of leds.sv was successful.
+# Compile of segmentlogic.sv was successful.
+# Compile of chooseanode.sv was successful.
+# Compile of mux.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.mux
+# End time: 21:44:40 on Sep 08,2024, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 2
+# vsim work.mux 
+# Start time: 21:44:40 on Sep 08,2024
+# Loading sv_std.std
+# Loading work.mux
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+add wave -position end sim:/mux/*
+force s1 0000
+force s2 1111
+force state 1
+run 100
+# A time value could not be extracted from the current line
+# End time: 21:49:26 on Sep 08,2024, Elapsed time: 0:04:46
+# Errors: 0, Warnings: 1
