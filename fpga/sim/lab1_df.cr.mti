@@ -1,1 +1,8 @@
+C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/src/lab1_df_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/danie/OneDrive/Documents/MicroP/Lab1/fpga/src/lab1_df_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab1_df_tb
 
+Top level modules:
+	lab1_df_tb
+
+} {} {}}

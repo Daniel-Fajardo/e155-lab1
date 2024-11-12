@@ -1,4 +1,10 @@
+// Daniel Fajardo
+// dfajardo@g.hmc.edu
+// 09/09/2024
+//
+// top level module
 module top(
+    // input logic clk, // for simulation
 	input logic	mcu_blink_in,
     input logic [3:0] s,
 	output logic mcu_echo_led,
@@ -9,7 +15,7 @@ module top(
 	logic int_osc;
 	logic pulse;
 	logic led_state = 0;
-	logic [23:0] counter = 0; /* changed from 24 to 10, should change freq from 1 to 2.4 Hz*/
+	logic [23:0] counter = 0;
 	
 	// Internal high-speed oscillator
 	HSOSC hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
@@ -21,15 +27,16 @@ module top(
 		end
 		
 
-/*  switch inputs in binary to corresponding led outputs*/
+    // switch inputs in binary to corresponding led outputs
     segmentlogic segmentlogic(s[3:0], seg[6:0]);
     leds leds(s[3:0], led[2:0]);
 
-    assign led[2] = counter[23]; /* changed from 24 to 10*/
+    assign led[2] = counter[23];
 	assign mcu_echo_led = mcu_blink_in;
 
 endmodule
 
+// logic to convert binary input to map of segment leds
 module segmentlogic(
     input logic [3:0] s,
     output logic [6:0] seg
@@ -58,6 +65,7 @@ module segmentlogic(
 
 endmodule
 
+// logic for leds based on binary input
 module leds(
     input logic [3:0] s,
     output logic [2:0] led
